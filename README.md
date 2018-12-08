@@ -1,8 +1,9 @@
 # CP1404 2018 SP53 Assignment 1
 Assignment 1 for CP1404, 2018 SP53, IT@JCU
 
-Edit this README file, replacing this paragraph with your own assignment details.  
-At the end of the project, complete the very brief project reflection below by answering the questions (replace the `answer...` parts).  
+Used 3 functions for 3 options of Listing Songs, Completing Songs and Adding Songs. Used csv module to read and write the songs.csv file.
+"csv.reader" returns a reader object which will iterate over lines in the given csv file. 
+"csv.writer" returns a writer object responsible for converting the user’s data into delimited strings on the given file-like object. 
 Note: If you use the free WakaTime service on your own machine, you can track exactly how long you spent in code. See https://trello.com/c/6H24THnj/21-wakatime-time-tracking-for-ides-join-our-leaderboard
 
 1. How long did the entire project (assignment 1) take you?
