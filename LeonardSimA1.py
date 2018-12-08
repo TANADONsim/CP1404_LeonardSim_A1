@@ -65,10 +65,10 @@ def completing_songs(song_list, user_input):
 
         # If song not yet cleared
         elif song[3] == "y":
-            # clear song in a local list
+            # clear song in local list
             song[3] = "n"
             print("{0} by {1} learned".format(song[1], song[2]))
-            # clear song in the .csv
+            # clear song in .csv file
             with open("songs.csv", "w", newline="") as songs_file:
                 song_writer = csv.writer(songs_file)
                 song_writer.writerows(song_list)
